@@ -30,6 +30,16 @@ That should be it!
 
 ---
 
+## TEDx Talk: Dan Hammer – Why make environmental data accessible? 
+
+Dan Hammer’s talk frames environmental protection as a data problem: we can’t manage ecosystems well if we can’t see change clearly, consistently, and at scale. He shows how modern data streams (especially satellite imagery) can turn the planet into something we can monitor almost continuously, revealing patterns like forest loss that field surveys alone can’t capture everywhere. Through his work linked to Global Forest Watch, he believes the key shift is from raw observations to usable data products. How standardised, validated outputs (such as maps or alerts) can help decision-makers act quickly. In an ecology data-management context, the lesson is that impact depends on more than analysis; it depends on good data stewardship. Clear metadata and methods, repeatable processing pipelines, transparent uncertainty/limitations, and open access allow others to verify, reuse, and build on the work. In short, strong data management makes ecological science accountable and decision-relevant, turning monitoring into timely action rather than static reports.
+
+https://www.youtube.com/watch?v=ph439t-kTIE
+
+> Contributor: Megan vZ
+
+---
+
 ## Webinar about irreproducibility in Ecology 
 
 This seminar highlights the replicability crisis, why replicability is specifically so important in ecology  and explains some ways that they are applied through the presenters studies. 

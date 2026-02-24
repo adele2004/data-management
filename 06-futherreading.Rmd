@@ -30,6 +30,14 @@ That should be it!
 
 ---
 
+## Implementing Reproducible Fisheries Research: A Decade of Experience With the Kahawai Reporting System (Middleton et al., 2026)
+
+This article states that scientific publishing is in a state of crises due to low rates of reproducibility of published articles. It then describes what reproducible research is and the infrastructure needed for a reproducible analyses. It also introduces a platform (kahawai.io) they have developed for fully reproducible analyses on the New Zealand fisheries databases and describes what makes this a platform for fully reproducible analyses. Link: https://rsnz.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/snz2.70011
+
+> Contributor: Johan Cronje
+
+---
+
 ## Webinar about irreproducibility in Ecology 
 
 This seminar highlights the replicability crisis, why replicability is specifically so important in ecology  and explains some ways that they are applied through the presenters studies. 

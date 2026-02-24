@@ -30,6 +30,24 @@ That should be it!
 
 ---
 
+
+## Reproducibility: The science communities’ ticking timebomb. Can we still trust published research?
+
+“If we don’t know how you got these results, how are we supposed to check they’re right?”
+
+In this blog post, Miyako Rogers delves into the “reproducibility crisis”, some possible fixes, and the value of negative results. She also considers the perspective of a researcher who does not believe there is a reproducibility crisis. 
+
+While immense pressure to publish appears to be the primary contributor, Rogers suggests that there are several issues driving the crisis, including “p-hacking” (selectively analysing data to bolster non-significant results); HARKing (hypothesising after the results are known); lack of detail, transparency and accessibility; and a growing movement against using p-values to determine significance.
+
+Alexander Bird, a philosopher from King’s College London, argues that “issues with the scientific process” and the base rate fallacy (i.e. giving weight to specific information over statistics) are to blame for irreproducibility, and that the “crisis” is an exaggeration. 
+In her conclusion, Rogers emphasises the need for concrete, thorough and rigorous science.
+
+Link: https://frontlinegenomics.com/reproducibility-the-science-communities-ticking-timebomb-can-we-still-trust-published-research/
+
+> Contributor: Grethen
+
+---
+
 ## Webinar about irreproducibility in Ecology 
 
 This seminar highlights the replicability crisis, why replicability is specifically so important in ecology  and explains some ways that they are applied through the presenters studies. 

@@ -20,7 +20,10 @@ That should be it!
 > *Note: For the example below, I copied, pasted and minimally edited text directly from the resource. This is ok, because they shared the resource under an MIT licence and I'm acknowledging them, but for this exercise I would like you to use your own words as far as possible.
 
 ---
-
+## ReproducibiliTEA 
+ReproducibiliTea is a global grassroots initiative that supports early career researchers in building communities around open and reproducible research. It was founded in 2018 at the University of Oxford, ad it provides a simple framework for setting up journal clubs that focus on improving research practices, transparency, and data sharing. The clubs are free, therefore lowering barriers for students and early career researchers to engage in conversations about reproducibility and the replication crisis. 
+https://reproducibilitea.org/ 
+> Contributor: Amber
 
 ## library(osfr) for interacting with the [Open Science Framework (OSF)](https://osf.io/) from R
 

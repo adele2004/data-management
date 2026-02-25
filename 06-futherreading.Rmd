@@ -51,6 +51,18 @@ https://doi.org/10.1098/rspb.2025.1394
 
 ---
 
+## James H. Stagge et al. (2019): “Assessing data availability and research reproducibility in hydrology and water resources”
+
+This study evaluated the transparency and reproducibility of research within the hydrology and water resource sciences. As these studies are essential to properly support water management, drought and flood forecasting, and climate adaptation, the reliability of this type of research is absolutely vital.
+The authors review published articles do determine if they contain the main components required to reproduce the results, including raw data, metadata, the code, and other methodlogies, and whether these components were publically available. 
+It was revealed that many studies said that their data was public, however very few were truly reproducible. Datasets weren't accessible, lacked enough documentation to allow reuse, and code sharing was almost unheard of. Only 6-8% of the 500 studies reviewed were provided accessible data, with over 70% not proividing a direct link to their raw datasets. Less than 5% included their model code, and multiple papers stated data was available 'upon request', only to never be provided. 
+
+https://doi.org/10.1038/sdata.2019.30
+
+> Contributor: Carys
+
+---
+
 ## Multi-Stakeholder Research Data Management Training as a Tool to Improve the Quality, Integrity, Reliability and Reproducibility of Research
 
 This paper focuses on something very important for data management and reproducible research: it evaluates a training program designed to enhance research data management (RDM) competencies among doctoral students and postdoctoral researchers. The program was quite interesting because it was collaborative, bringing together multiple stakeholders. It was also at a generic level, which means it was designed not to be overly specific to one discipline but rather relevant across a range of disciplines. Their finding was essentially that training can improve understanding of RDM practices. Feedback and competency ratings from participants in the program indicated that "key RDM practices, such as data planning, documentation, and organization, were better understood after the training."

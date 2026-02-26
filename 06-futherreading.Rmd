@@ -457,4 +457,10 @@ Link: https://doi.org/10.1098/rspb.2020.2597
 
 > Contributor: Naval
 
+## Reproducibility: science's consistency issue, The Naked Scientists Podcast
 
+Reproducibility means if you ran an experiment again, you'd get pretty much the same results. But apparently 70% of researchers can't reproduce other people's work. The problem seems worst in big journals like Nature and Science, where everyone's competing for flashy results. Some researchers might leave out data points (outliers for example) that don't fit their story, or come up with hypotheses after they've already seen the results. The guest speakers don't seem to think it's a crisis though. Science changes, methods evolve. The real issue might be simpler: people don't share their data or write clear methods. The solution lies in open code and data. Most scientists aren't trying to be shady—they're just making honest mistakes. Sharing openly means others can help catch those mistakes. Reproducibility offers scientists the chance to communicate better.
+
+Link to podcast: https://open.spotify.com/episode/37b4QTiUpHwFTiXIM2TUWr?si=1vk-rQp9QyWUKKEPWl2vqw&t=736 
+
+> Contributor: Adéle

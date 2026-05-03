@@ -537,4 +537,15 @@ Link: https://doi.org/10.1098/rspb.2020.2597
 
 > Contributor: Naval
 
+---
+
+## DataFed: Towards Reproducible Research via Federated Data Management
+
+This paper emphasises the need for an efficient scientific data management system (SDMS) given the current explosion in data volumes and the need to share data. With research becoming more multidisciplinary and globalized, the need to publish your data sets to support research findings is becoming increasingly important. DataFed is a lightweight SDMS that allows scientists to organize, find and move data that is stored all over the globe. It connects different storage systems together and is user-friendly. It improves on other SDMS by using fast, scalable tools for managing users and transferring large datasets. It helps make research reproducible by ensuring the right data is sent to the right computing environment at the right time. 
+
+
+Link: https://doi.org/10.1109/CSCI49370.2019.0024 
+
+> Contributor: Uzair
+
 

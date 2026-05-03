@@ -29,6 +29,16 @@ That should be it!
 
 ---
 
+## Lee and Hange (2020) “Reproducibility in science: important or incremental?”
+
+This article stresses the importance of reproducibility in the field of genomic epidemiology. Both analytical and laboratory techniques in this field are rapidly evolving. Additionally analysis techniques are not standardised across different groups. The article proposes older studies be revisited and updated periodically. They argue this is important not only for research but also for public health. The article highlights that journals often dismiss reproducibility studies for lacking novelty and only being of incremental benefit. The authors of the article argue that pushing for novel studies contributes to the issue by not encouraging researchers to revisit their work and the works of others. They believe journals should be supporting the publication of reproducibility studies. 
+
+https://www.sciencedirect.com/science/article/pii/S2666524720300288
+
+> Contributor: Ella
+
+---
+
 ## GitHub Enables Collaborative and Reproducible Laboratory Research
 
 The article emphasizes that reproducible research is essential for verifying, building upon, and trusting scientific findings, ensuring that results are reliable and can be extended by others. Traditional laboratory practices, which rely on scattered notebooks, emails, and unstructured files, often hinder reproducibility and collaboration. The authors discuss how using tools like GitHub allows researchers to document all aspects of their work, from experimental design to data collection, analysis, and manuscript preparation, in a single, organized platform. This integrated approach improves transparency, efficiency, and communication within research teams. By combining version control, project tracking, and comprehensive documentation, teams can monitor changes over time, preserve computational environments, reduce errors, and make results easier to verify. 

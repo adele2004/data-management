@@ -26,7 +26,18 @@ That should be it!
 [library(osfr)](https://docs.ropensci.org/osfr/) is an R package that allows you to interact with OSF directly from R. OSF is a free and open source project management repository designed to support researchers across their entire project lifecycle. The service includes unlimited cloud storage and file version history, providing a centralized location for all your research materials that can be kept private, shared with select collaborators, or made publicly available with citable DOIs. You can use library(osfr) to explore publicly accessible projects and download the associated files — all you need to get started is the project’s URL or GUID (global unique identifier). library(osfr) can also be used for project management by creating projects, add sub-components or directories, and uploading files.
 
 > Contributor: Jasper
+---
 
+## 5.42 Fidler et al. (2017) “Metaresearch for Evaluating Reproducibility in Ecology and Evolution”
+
+This paper focuses on the issues of reproducibility in ecology and evolution by focusing on metaresearch, which refers to research that evaluates research practices. The paper distinguishes between different forms of reproducibility, including direct re-analysis, where the same analysis is repeated using the original data and code; direct computational reproducibility; conceptual replication, which tests the same hypothesis using different methods; and conceptual re-analysis, which involves analysing the same dataset using alternative but justified approaches. The authors explain that direct replications assess reliability, while conceptual replications evaluate whether findings and theories are generalisable.
+The paper argues that irreproducibility in ecology is often not just due to fraud, but rather poor study design, inappropriate statistical methods, incomplete reporting of results, publication bias, and questionable research practices such as p-hacking and HARKing. The research culture which demands publication as the only path to academic success together with restricted research data and code sharing incentives creates more problems from this situation. The authors suggest that systematic journal surveys could be used to assess statistical reporting and transparency, and that automated tools such as statcheck may help detect inconsistencies. They conclude that a significant proportion of research funding may support irreproducible work, which has both financial and environmental implications.
+
+Link: https://doi.org/10.1093/biosci/biw159
+
+> Contributor:Reece Sinn Frantz 
+
+---
 ---
 
 ## Lee and Hange (2020) “Reproducibility in science: important or incremental?”

@@ -124,4 +124,54 @@ Now that GitHub is starting to enforce 2-factor authentication, you may also nee
 - Click `Apply`
 - Restart RStudio
 
-Lastly, you need to install the [_Tidyverse_](https://www.tidyverse.org/) set of R packages. This can be done using the code `install.packages("tidyverse")`.
+Ok, now everything should be working. **If not**, and you've tried repeating steps, have a look at the installation section of [Happy Git with R](https://happygitwithr.com/) to troubleshoot...
+
+The next steps (explained below) are to _fork_ and _clone_ your first repo to see if everything is working, and then to modify a file in RStudio, _push_ it back to your forked repo, and then create a _pull request_ for me to review and accept your changes. This let's me know that you've made it through the preparation for the practical, and it gives me your GitHub username.
+
+9. In GitHub:
+- Make sure you are logged in, search and navigate to `https://github.com/PlantEcologi/BIO3019S_test`
+- Click `Fork`, which will make a copy of the repository to your own workspace
+- Copy the URL to your own version and follow the instructions below for cloning the repository in RStudio
+
+10. In RStudio:
+- In the top-right of the window you'll see `Project: (None)` - click on it and select `New Project` then `Version Control` then `Git`
+- In the `Repository URl:` box paste the URL to your forked repo (It should look something like : `https://github.com/YourGitHubUsername/your-forked-repo_name.git`)
+- `Project directory name` should fill automatically
+- For `Create project as subdirectory of:` hit `Browse` and navigate through your file system to where you want to put your folder for storing your Git repositories. I recommend something high in your directory system like `~Documents/GIT`. Avoid putting it in a folder that syncs online like a OneDrive, GoogleDrive, iCloud or Dropbox folder. If you've used Git before you may have set this already and can skip this step.
+- Click `Create Repository`
+
+Your RStudio window should now look something like this:
+
+<br>
+
+```{r rstudiosuccess, echo=FALSE, fig.cap = "What you should see... **Note** there are three files in the `Files` tab in the bottom-right window, and you should see a `Git` tab for the top-right window. It also says `pullltest` in the project drop-down top-right on mine, but yours will display the name you gave your forked repo.", fig.width=3, fig.align = 'center', out.width="90%"}
+knitr::include_graphics("img/rstudiosuccess.png")
+```
+
+<br>
+
+- Open the `README.md` file in RStudio
+- Add your message (something like "Hi! This is _Real Name_ and I've made it this far!!!") and save the file
+- Select the `Git` tab in the top-right window
+- Check the box next to `README.md` and click `Commit`
+- Add a `Commit message` to say what changes you've made
+- Then hit `Push`
+- It may ask you to authenticate. Select `Authenticate in your web browser`. The web browser will ask you to give Git permissions. Allow the permissions and it should work.
+
+If you get an error at this point to the effect of "You do not have permission to push to this repository", then you may have forgotten to fork your own repo from my one and are trying to push to mine... If so, start again from step 9.
+
+If you encounter authentication issues, redo step 7. 
+
+11. In GitHub (i.e. online)
+- Click `Pull requests` (top-leftish)
+- Click `New pull request` (green, top-right)
+- Click `Create pull request` (green, top-right)
+  - It should already be on this repo unless you've been doing other things in Git
+- In the comment window put your name so I know who you are if it isn't obvious from your GitHub username
+- Click `Create pull request` (green, bottom-right)
+
+12. Lastly, you need to install the [_Tidyverse_](https://www.tidyverse.org/) set of R packages. This can be done running the code `install.packages("tidyverse")` in your console.
+
+And you're done!!! I'll get a notification of your pull request and, if all's in order, I'll accept it. If not, I'll reply with a comment on the pull request. You should receive a notification via the email you registered with your GitHub account.
+
+<br>

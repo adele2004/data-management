@@ -26,6 +26,108 @@ That should be it!
 [library(osfr)](https://docs.ropensci.org/osfr/) is an R package that allows you to interact with OSF directly from R. OSF is a free and open source project management repository designed to support researchers across their entire project lifecycle. The service includes unlimited cloud storage and file version history, providing a centralized location for all your research materials that can be kept private, shared with select collaborators, or made publicly available with citable DOIs. You can use library(osfr) to explore publicly accessible projects and download the associated files — all you need to get started is the project’s URL or GUID (global unique identifier). library(osfr) can also be used for project management by creating projects, add sub-components or directories, and uploading files.
 
 > Contributor: Jasper
+---
+
+## 5.42 Fidler et al. (2017) “Metaresearch for Evaluating Reproducibility in Ecology and Evolution”
+
+This paper focuses on the issues of reproducibility in ecology and evolution by focusing on metaresearch, which refers to research that evaluates research practices. The paper distinguishes between different forms of reproducibility, including direct re-analysis, where the same analysis is repeated using the original data and code; direct computational reproducibility; conceptual replication, which tests the same hypothesis using different methods; and conceptual re-analysis, which involves analysing the same dataset using alternative but justified approaches. The authors explain that direct replications assess reliability, while conceptual replications evaluate whether findings and theories are generalisable.
+The paper argues that irreproducibility in ecology is often not just due to fraud, but rather poor study design, inappropriate statistical methods, incomplete reporting of results, publication bias, and questionable research practices such as p-hacking and HARKing. The research culture which demands publication as the only path to academic success together with restricted research data and code sharing incentives creates more problems from this situation. The authors suggest that systematic journal surveys could be used to assess statistical reporting and transparency, and that automated tools such as statcheck may help detect inconsistencies. They conclude that a significant proportion of research funding may support irreproducible work, which has both financial and environmental implications.
+
+Link: https://doi.org/10.1093/biosci/biw159
+
+> Contributor:Reece Sinn Frantz 
+
+---
+---
+
+## Lee and Hange (2020) “Reproducibility in science: important or incremental?”
+
+This article stresses the importance of reproducibility in the field of genomic epidemiology. Both analytical and laboratory techniques in this field are rapidly evolving. Additionally analysis techniques are not standardised across different groups. The article proposes older studies be revisited and updated periodically. They argue this is important not only for research but also for public health. The article highlights that journals often dismiss reproducibility studies for lacking novelty and only being of incremental benefit. The authors of the article argue that pushing for novel studies contributes to the issue by not encouraging researchers to revisit their work and the works of others. They believe journals should be supporting the publication of reproducibility studies. 
+
+https://www.sciencedirect.com/science/article/pii/S2666524720300288
+
+> Contributor: Ella
+
+---
+
+## GitHub Enables Collaborative and Reproducible Laboratory Research
+
+The article emphasizes that reproducible research is essential for verifying, building upon, and trusting scientific findings, ensuring that results are reliable and can be extended by others. Traditional laboratory practices, which rely on scattered notebooks, emails, and unstructured files, often hinder reproducibility and collaboration. The authors discuss how using tools like GitHub allows researchers to document all aspects of their work, from experimental design to data collection, analysis, and manuscript preparation, in a single, organized platform. This integrated approach improves transparency, efficiency, and communication within research teams. By combining version control, project tracking, and comprehensive documentation, teams can monitor changes over time, preserve computational environments, reduce errors, and make results easier to verify. 
+
+Although GitHub has some limitations, such as not being optimized for very large datasets, the authors argue that it provides a flexible and scalable framework for reproducible workflows. The principles extend beyond purely computational research and are relevant to biological and ecological studies, particularly those involving complex datasets or multi-institution collaborations. Importantly, reproducibility is presented not merely as publishing final results but as embedding transparent, systematic practices throughout the research process, benefiting individual scientists and the broader scientific community by fostering reliable and collaborative science.
+
+Link to the article: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003029
+
+> Contributor: Sindiswa
+
+---
+
+
+## Lortie et al. (2022) "Tabular strategies for metadata in ecology, evolution, and the environmental sciences"
+
+Lortie et al. highlight the importance of metadata and propose a standardised way of documenting ecological metadata in a table format. This makes it easier to compare metadata between datasets, promotes reproducibility and streamlines workflow when working on projects. Like how datasets can be organised and standardised as “tidy tables” in R using tidyverse packages, the same can be done for metadata. The paper gives examples on how to structure and organise metadata and shows step by step how to do this. It also gives details on tools that can assist you in formatting your metadata.
+
+https://doi: 10.1002/ece3.9245
+
+> Contributor: Rebecca Peacocke
+
+---
+
+
+## Reproducibility: The science communities’ ticking timebomb. Can we still trust published research?
+
+“If we don’t know how you got these results, how are we supposed to check they’re right?”
+
+In this blog post, Miyako Rogers delves into the “reproducibility crisis”, some possible fixes, and the value of negative results. She also considers the perspective of a researcher who does not believe there is a reproducibility crisis. 
+
+While immense pressure to publish appears to be the primary contributor, Rogers suggests that there are several issues driving the crisis, including “p-hacking” (selectively analysing data to bolster non-significant results); HARKing (hypothesising after the results are known); lack of detail, transparency and accessibility; and a growing movement against using p-values to determine significance.
+
+Alexander Bird, a philosopher from King’s College London, argues that “issues with the scientific process” and the base rate fallacy (i.e. giving weight to specific information over statistics) are to blame for irreproducibility, and that the “crisis” is an exaggeration. 
+In her conclusion, Rogers emphasises the need for concrete, thorough and rigorous science.
+
+Link: https://frontlinegenomics.com/reproducibility-the-science-communities-ticking-timebomb-can-we-still-trust-published-research/
+
+> Contributor: Grethen
+
+---
+
+## TEDx Talk: Dan Hammer – Why make environmental data accessible? 
+
+Dan Hammer’s talk frames environmental protection as a data problem: we can’t manage ecosystems well if we can’t see change clearly, consistently, and at scale. He shows how modern data streams (especially satellite imagery) can turn the planet into something we can monitor almost continuously, revealing patterns like forest loss that field surveys alone can’t capture everywhere. Through his work linked to Global Forest Watch, he believes the key shift is from raw observations to usable data products. How standardised, validated outputs (such as maps or alerts) can help decision-makers act quickly. In an ecology data-management context, the lesson is that impact depends on more than analysis; it depends on good data stewardship. Clear metadata and methods, repeatable processing pipelines, transparent uncertainty/limitations, and open access allow others to verify, reuse, and build on the work. In short, strong data management makes ecological science accountable and decision-relevant, turning monitoring into timely action rather than static reports.
+
+https://www.youtube.com/watch?v=ph439t-kTIE
+
+> Contributor: Megan vZ
+
+---
+
+## Implementing Reproducible Fisheries Research: A Decade of Experience With the Kahawai Reporting System (Middleton et al., 2026)
+
+This article states that scientific publishing is in a state of crises due to low rates of reproducibility of published articles. It then describes what reproducible research is and the infrastructure needed for a reproducible analyses. It also introduces a platform (kahawai.io) they have developed for fully reproducible analyses on the New Zealand fisheries databases and describes what makes this a platform for fully reproducible analyses. 
+Link: https://rsnz.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/snz2.70011
+
+> Contributor: Johan Cronje
+
+---
+
+## Webinar about irreproducibility in Ecology 
+
+This seminar highlights the replicability crisis, why replicability is specifically so important in ecology  and explains some ways that they are applied through the presenters studies. 
+There is a widespread issue of irreplicability in science across fields, due to questionable research practices, cherry picking, only showing desirable results etc. as well as the large problem with academic culture. Many scientists in ecology would rather publish ‘original’ work and find it hard to find funding for replication studies, and hence have decreasing the number of replication studies done.
+The presenter goes on to explain these issues in more depth, with examples and finally how, and with what studies she is planning on addressing the issue of irreplaceability in Ecological sciences.
+Link to video: https://youtu.be/3hnYSTXkoJA?si=BKQ1Yk3LgEtELlvN 
+
+> Contributor: Meghan M
+
+---
+
+## Ivimey-Cook et al. (2025) “From policy to practice: progress towards data- and code-sharing in ecology and evolution”
+
+Code and data sharing are a key component in creating reproducible research. However, in ecology and evolution journals, compliance with policy regarding code and data sharing is poor. This paper investigated data and code sharing policies and compliance for 275 journals in ecology and evolution. The study found that only 22.5% encouraged data sharing and only 38.2% made data sharing mandatory. Similarly, only 26.6% and 26.9% had encouraged and mandatory code sharing, respectively. This paper also provides seven recommendations for journals on how to improve data and code sharing policies and compliance. Recommendations included: policies must be findable and clear, code sharing must be mandatory, policies must be applicable to all types of data, and journals should have data editors to assess data and code quality. This paper is interesting as it looks at the role of policy in promoting reproducible research and how journals can more effectively create and uphold policies.  
+
+https://doi.org/10.1098/rspb.2025.1394
+
+> Contributor: Hannah
 
 ---
 
@@ -34,7 +136,8 @@ That should be it!
 This paper focuses on something very important for data management and reproducible research: it evaluates a training program designed to enhance research data management (RDM) competencies among doctoral students and postdoctoral researchers. The program was quite interesting because it was collaborative, bringing together multiple stakeholders. It was also at a generic level, which means it was designed not to be overly specific to one discipline but rather relevant across a range of disciplines. Their finding was essentially that training can improve understanding of RDM practices. Feedback and competency ratings from participants in the program indicated that "key RDM practices, such as data planning, documentation, and organization, were better understood after the training."
 
 https://liberquarterly.eu/article/view/11726/13897
-Ayanda
+
+> Contributor: Ayanda
 
 ---
 
@@ -443,3 +546,17 @@ Scientific journals play a crucial role in facilitating the reproducibility of r
 Link: https://royalsocietypublishing.org/rspb/article/292/2055/20251394/234632
 
 > Contributor: Emma-Beth
+
+---
+
+## DataFed: Towards Reproducible Research via Federated Data Management
+
+This paper emphasises the need for an efficient scientific data management system (SDMS) given the current explosion in data volumes and the need to share data. With research becoming more multidisciplinary and globalized, the need to publish your data sets to support research findings is becoming increasingly important. DataFed is a lightweight SDMS that allows scientists to organize, find and move data that is stored all over the globe. It connects different storage systems together and is user-friendly. It improves on other SDMS by using fast, scalable tools for managing users and transferring large datasets. It helps make research reproducible by ensuring the right data is sent to the right computing environment at the right time. 
+
+
+Link: https://doi.org/10.1109/CSCI49370.2019.0024 
+
+> Contributor: Uzair
+
+
+

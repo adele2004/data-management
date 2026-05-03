@@ -26,6 +26,14 @@ That should be it!
 [library(osfr)](https://docs.ropensci.org/osfr/) is an R package that allows you to interact with OSF directly from R. OSF is a free and open source project management repository designed to support researchers across their entire project lifecycle. The service includes unlimited cloud storage and file version history, providing a centralized location for all your research materials that can be kept private, shared with select collaborators, or made publicly available with citable DOIs. You can use library(osfr) to explore publicly accessible projects and download the associated files — all you need to get started is the project’s URL or GUID (global unique identifier). library(osfr) can also be used for project management by creating projects, add sub-components or directories, and uploading files.
 
 > Contributor: Jasper
+
+---
+
+## ReproducibiliTEA 
+ReproducibiliTea is a global grassroots initiative that supports early career researchers in building communities around open and reproducible research. It was founded in 2018 at the University of Oxford, ad it provides a simple framework for setting up journal clubs that focus on improving research practices, transparency, and data sharing. The clubs are free, therefore lowering barriers for students and early career researchers to engage in conversations about reproducibility and the replication crisis. 
+https://reproducibilitea.org/ 
+> Contributor: Amber
+
 ---
 
 ## 5.42 Fidler et al. (2017) “Metaresearch for Evaluating Reproducibility in Ecology and Evolution”
@@ -37,7 +45,6 @@ Link: https://doi.org/10.1093/biosci/biw159
 
 > Contributor:Reece Sinn Frantz 
 
----
 ---
 
 ## Lee and Hange (2020) “Reproducibility in science: important or incremental?”

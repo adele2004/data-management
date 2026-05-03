@@ -110,6 +110,16 @@ Link: https://rsnz.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/snz2.70011
 
 ---
 
+
+## Marine Biologists clash on limits of research reproducibility
+
+This news article reports on a despute between marine biologists over studies done examining the effects of ocean acidification on coral reef fish behaviour. After one group failed to replicate earlier findings of behavioural chnages under increased CO2 condition, the authors concluded that methodological differences invalidated the comparsion. This debate highlights a core challenge in ecology, that exact replication if often impossible due to natural variability, species differences and environmental conditions. This is why having transparent methods, open access data and independent replication is essential for science credibility.
+Link to News Article: https://www.timeshighereducation.com/news/marine-biologists-clash-limits-research-reproducibility
+
+> Contributor: Bella M
+
+---
+
 ## Webinar about irreproducibility in Ecology 
 
 This seminar highlights the replicability crisis, why replicability is specifically so important in ecology  and explains some ways that they are applied through the presenters studies. 
